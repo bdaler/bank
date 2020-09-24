@@ -1,6 +1,6 @@
 package stats
 
-import "github.com/bdaler/bank/pkg/bank/types"
+import "github.com/bdaler/bank/pkg/types"
 
 func Avg(payments []types.Payment) types.Money {
 	count := len(payments)
